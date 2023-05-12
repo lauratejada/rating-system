@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.container {
+    width: min(100% -30px, 1200px);
+    margin-inline: auto;
+}
+
+section{
+    margin-top: 60px;
+}
+
+section h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
